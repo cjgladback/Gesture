@@ -1,0 +1,8 @@
+* {
+    background-color: #00D96A;
+}
+
+#logo {
+    background-size: 10%;
+    background-image: image(../images/logo-orange.png)
+}
