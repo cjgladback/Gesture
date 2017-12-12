@@ -4,21 +4,142 @@
     margin: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-shadow: 0px 0px 2px #ff8f2599;
+}
+
 body {
-    background-color: #00D96A;
+    width: 100%;
+    color: #00A4FF;
+    font-family: "Futura";
+}
+
+footer {
+    text-align: right;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 48pt;
+    font-weight: 200;
+}
+
+h4 {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+p {
+    padding-top: 10pt;
+    font-size: 10pt;
+    font-weight: 400;
 }
 
 nav {
+    position: fixed;
     width: 100%;
     height: 70px;
     background-color: #FFFFFF;
+    transform: translateZ(0px);
+}
+
+/*
+IDs
+*/
+
+#menu {
+    height: inherit;
+    flex-wrap: wrap;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: inherit;
 }
 
 #logobox {
-    width: 50px;
-    height: 50px;
+    float: left;
+    width: 70px;
+    height: 70px;
     padding: 12px;
 }
 
-#logo {
+#hero {
+    background-image: url(/images/mockup.jpg);
+    height: 100vh;
+}
+
+#stockimg1 {
+    background-image: url(/images/kevin-curtis-3308.jpg);
+    height: 90vh;
+}
+
+#stockimg2 {
+    background-image: url(/images/rawpixel-com-250087.jpg);
+    height: 90vh;
+}
+
+#download {
+    text-align: center;
+}
+
+#about {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+}
+
+#partners {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+#partnerlink {
+    background: #00A4FF;
+}
+
+/*
+Classes
+*/
+
+.contented {
+    height: auto;
+    padding: 50px;
+}
+
+.download-btn {
+    background: #00D96A;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.download-btn:hover {
+    box-shadow: 0px 0px 5px #ff8f2599;
+}
+
+.btn-content:hover {
+    color: #ffffff;
+}
+
+.parallaux {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navitem {
+    padding-right:50px;
+}
+
+.clear {
+    clear: both;
 }
